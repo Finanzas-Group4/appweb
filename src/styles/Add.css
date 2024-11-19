@@ -1,0 +1,35 @@
+.content-form {
+    border: 1px solid #eaeaea;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.input-main {
+    width: 100%;
+    padding: 7px 10px;
+    border: 1px solid rgb(170, 170, 170);
+    border-radius: 3px;
+    outline: none;
+    border-radius: 4px;
+}
+
+.input-main:focus {
+    border: 2px solid #4F46E5;
+}
+
+.btn-main {
+    background: #4F46E5;
+    padding: 7px 20px;
+
+    border-radius: 2px;
+    color: white;
+    transition: filter 0.3s ease;
+}
+
+.btn-main:hover {
+    filter: brightness(1.1);
+}

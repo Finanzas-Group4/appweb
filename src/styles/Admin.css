@@ -1,0 +1,21 @@
+.admin {
+    font-size: 0.9rem;
+}
+
+.inter {
+    font-family: 'Satoshi', sans-serif;
+}
+
+.spinner {
+    animation: giro 2s linear infinite;
+}
+
+@keyframes giro {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
